@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_checked="false">
+        <shape android:shape="rectangle">
+            <corners android:radius="20dp" /> <!-- Điều chỉnh bán kính bo góc theo ý của bạn -->
+            <solid android:color="#EF5454" /> <!-- Màu nền khi trạng thái là "Off" -->
+        </shape>
+    </item>
+    <item android:state_checked="true">
+        <shape android:shape="rectangle">
+            <corners android:radius="20dp" />
+            <solid android:color="#4CAF50" /> <!-- Màu nền khi trạng thái là "On" -->
+        </shape>
+    </item>
+</selector>
